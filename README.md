@@ -320,8 +320,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Inserting a new record*  
+
 
 **Sample:**  
 __Url -__
@@ -347,7 +347,7 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
+*Description - Fetching disability of particular person*  
 _This will also be italic_
 
 **Sample:**  
@@ -375,7 +375,7 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
+*Description - Updating disability of particular person*  
 _This will also be italic_
 
 **Sample:**  
@@ -403,7 +403,7 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
+*Description - Updating disability of particular person using patch*  
 _This will also be italic_
 
 **Sample:**  
@@ -431,7 +431,7 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
+*Description - Deleting record of User("can only be done by Admin")*  
 _This will also be italic_
 
 **Sample:**  
@@ -460,8 +460,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description -Inserting a disability type*  
+
 
 **Sample:**  
 __Url -__
@@ -487,8 +487,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Deleting a disability type*  
+
 
 **Sample:**  
 __Url -__
@@ -515,7 +515,7 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
+*Description - Updating Inserting a disability type*  
 _This will also be italic_
 
 **Sample:**  
@@ -543,8 +543,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description -Fetching all disability type*  
+
 
 **Sample:**  
 __Url -__
@@ -600,8 +600,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Inserting new Job for a particular doctor*  
+
 
 **Sample:**  
 __Url -__
@@ -627,8 +627,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Updating a Job for a particular doctor*  
+
 
 **Sample:**  
 __Url -__
@@ -655,7 +655,7 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
+*Description - Updating using patch Job for a particular doctor*  
 _This will also be italic_
 
 **Sample:**  
@@ -683,8 +683,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Fetch new Job for a particular doctor*  
+
 
 **Sample:**  
 __Url -__
@@ -741,8 +741,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Inserting new Job for a particular police*  
+
 
 **Sample:**  
 __Url -__
@@ -768,8 +768,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Updating new Job for a particular Police*  
+
 
 **Sample:**  
 __Url -__
@@ -796,8 +796,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Updating using Patch Job for a particular Police*  
+
 
 **Sample:**  
 __Url -__
@@ -824,8 +824,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Fetching Job for a particular Police*  
+
 
 **Sample:**  
 __Url -__
@@ -852,8 +852,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Deleting Job for a particular Police*  
+
 
 **Sample:**  
 __Url -__
@@ -881,8 +881,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Inserting new Job for a particular Rail-Officer*  
+
 
 **Sample:**  
 __Url -__
@@ -908,8 +908,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Updating Job for a particular Rail-Officer*  
+
 
 **Sample:**  
 __Url -__
@@ -936,8 +936,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Deleting Job for a particular Rail-Officer*  
+
 
 **Sample:**  
 __Url -__
@@ -964,8 +964,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Updating(Patch) Job for a particular Rail-Officer*  
+
 
 **Sample:**  
 __Url -__
@@ -992,8 +992,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Fetch Job for a particular Rail-Officer*  
+
 
 **Sample:**  
 __Url -__
@@ -1021,8 +1021,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Inserting new RailwayZone*  
+
 
 **Sample:**  
 __Url -__
@@ -1048,8 +1048,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Updating RailwayZone*  
+
 
 **Sample:**  
 __Url -__
@@ -1076,8 +1076,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Deleting a RailwayZone*  
+
 
 **Sample:**  
 __Url -__
@@ -1104,8 +1104,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Fetch all RailwayZone*  
+
 
 **Sample:**  
 __Url -__
@@ -1132,7 +1132,7 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
+*Description - Updating RailwayZone(Patch)*  
 _This will also be italic_
 
 **Sample:**  
@@ -1161,8 +1161,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Inserting a new Request*  
+
 
 **Sample:**  
 __Url -__
@@ -1188,8 +1188,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Deleting a Request*  
+
 
 **Sample:**  
 __Url -__
@@ -1216,7 +1216,7 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
+*Description - Updating a Request*  
 _This will also be italic_
 
 **Sample:**  
@@ -1244,8 +1244,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Updating a Request(Patch)*  
+
 
 **Sample:**  
 __Url -__
@@ -1272,8 +1272,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Fetch a Request*  
+
 
 **Sample:**  
 __Url -__
@@ -1301,8 +1301,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Insert a new State*  
+
 
 **Sample:**  
 __Url -__
@@ -1328,8 +1328,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Update current State*  
+
 
 **Sample:**  
 __Url -__
@@ -1356,8 +1356,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Update a State(Patch)*  
+
 
 **Sample:**  
 __Url -__
@@ -1384,8 +1384,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Deleting a State*  
+
 
 **Sample:**  
 __Url -__
@@ -1412,8 +1412,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Fetch all State*  
+
 
 **Sample:**  
 __Url -__
@@ -1441,8 +1441,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Insert new Status*  
+
 
 **Sample:**  
 __Url -__
@@ -1468,8 +1468,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Update a Status*  
+
 
 **Sample:**  
 __Url -__
@@ -1496,8 +1496,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Update(patch) Status*  
+
 
 **Sample:**  
 __Url -__
@@ -1524,8 +1524,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Delete a Status*  
+
 
 **Sample:**  
 __Url -__
@@ -1552,8 +1552,8 @@ __Response:__
 * #### Method -
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Fetch a Status*  
+
 
 **Sample:**  
 __Url -__
