@@ -8,15 +8,15 @@
 
 ## User Service
 
-1. #### Url - 
-* #### Method -
+1. #### Url - http://localhost:8080/api/user 
+* #### Method - GET
 * #### protected - 
 
-*Description - Fetching of all/particular user*  
+*Description - Fetching of all user*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/user__
+__Url - http://localhost:8080/api/user__
 
 __Params - none__  
 
@@ -202,15 +202,15 @@ __Response:__
 ]
 ```
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-2. #### Url - 
-* #### Method -
+2. #### Url - http://localhost:8080/api/user/ 
+* #### Method - POST
 * #### protected - 
 
 *Description - Inserting a new User*  
 _This will also be italic_
 
 **Sample:**  
-__Url -http://localhost:8080/api/user/__
+__Url - http://localhost:8080/api/user/__
 
 __Params - none__  
 
@@ -240,15 +240,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-3. #### Url - 
-* #### Method -
+3. #### Url - http://localhost:8080/api/user/8
+* #### Method - PUT
 * #### protected - 
 
 *Description - Updating a User*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/user/8__
+__Url - http://localhost:8080/api/user/8__
 
 __Params - none__  
 
@@ -301,15 +301,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-4. #### Url - 
-* #### Method -
+4. #### Url - http://localhost:8080/api/user/{id}
+* #### Method - DELETE
 * #### protected - 
 
 *Description - Deleting a User*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/user/8__
+__Url - http://localhost:8080/api/user/8__
 
 __Params - none__  
 
@@ -327,15 +327,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-5. #### Url - 
-* #### Method -
+5. #### Url - http://localhost:8080/api/user/{id}
+* #### Method - GET
 * #### protected - 
 
 *Description -Fetching All Users*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/user/1__
+__Url - http://localhost:8080/api/user/1__
 
 __Params - none__  
 
@@ -376,15 +376,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-6. #### Url - 
-* #### Method -
+6. #### Url - http://localhost:8080/api/user/login
+* #### Method - POST
 * #### protected - 
 
 *Description - Login*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/user/login__
+__Url - http://localhost:8080/api/user/login__
 
 __Params - none__  
 
@@ -409,15 +409,14 @@ __Response:__
 
 ## User-Type Service
 
-1. #### Url - 
-* #### Method -
+1. #### Url - http://localhost:8080/api/usertype/
+* #### Method - POST
 * #### protected - 
 
 *Description -Inserting a User Type-: Doctor/Railway-officer/Police-officer*  
-_This will also be italic_
 
 **Sample:**  
-__Url -http://localhost:8080/api/usertype/__
+__Url - http://localhost:8080/api/usertype/__
 
 __Params - none__  
 
@@ -434,15 +433,15 @@ __Response:__
  Record Inserted Successfully.
 ```
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-2. #### Url - 
-* #### Method -
+2. #### Url - http://localhost:8080/api/usertype/{id}
+* #### Method - PUT
 * #### protected - 
 
 *Description - Updating a User Type-: Doctor/Railway-officer/Police-officer*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/usertype/5__
+__Url - http://localhost:8080/api/usertype/5__
 
 __Params - none__  
 
@@ -463,12 +462,11 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-3. #### Url - 
-* #### Method -
+3. #### Url - http://localhost:8080/api/usertype/{id}
+* #### Method - DELETE
 * #### protected - 
 
 *Description - Deleting a User Type-: Doctor/Railway-officer/Police-officer*  
-_This will also be italic_
 
 **Sample:**  
 __Url -http://localhost:8080/api/usertype/5__
@@ -489,15 +487,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-4. #### Url - 
-* #### Method -
+4. #### Url - http://localhost:8080/api/usertype/
+* #### Method - GET
 * #### protected - 
 
 *Description - Fetching all User Type-: Doctor/Railway-officer/Police-officer*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/usertype/__
+__Url - http://localhost:8080/api/usertype/__
 
 __Params - none__  
 
@@ -532,15 +530,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-5. #### Url - 
-* #### Method -
+5. #### Url - http://localhost:8080/api/usertype/{id}
+* #### Method - GET
 * #### protected - 
 
-*Description -I using Patch User Type-: Doctor/Railway-officer/Police-officer*  
+*Description -Fetch one User Type-: Doctor/Railway-officer/Police-officer*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/usertype/1__
+__Url - http://localhost:8080/api/usertype/1__
 
 __Params - none__  
 
@@ -562,15 +560,15 @@ __Response:__
 
 ## Disable-Cerificate Service
 
-1. #### Url - 
-* #### Method -
+1. #### Url - http://localhost:8080/api/certificate/
+* #### Method - POST
 * #### protected - 
 
 *Description - Inserting a new record*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/certificate/__
+__Url - http://localhost:8080/api/certificate/__
 
 __Params - none__  
 
@@ -606,15 +604,14 @@ __Response:__
  Record Inserted Successfully.
 ```
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-2. #### Url - 
-* #### Method -
+2. #### Url - http://localhost:8080/api/certificate/{id}
+* #### Method - GET
 * #### protected - 
 
 *Description - Fetching disability of particular person*  
-_This will also be italic_
 
 **Sample:**  
-__Url -http://localhost:8080/api/certificate/2__
+__Url - http://localhost:8080/api/certificate/2__
 
 __Params - none__  
 
@@ -739,15 +736,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-3. #### Url - 
-* #### Method -
+3. #### Url - http://localhost:8080/api/certificate/{id}
+* #### Method - PUT
 * #### protected - 
 
 *Description - Updating disability of particular person*  
-_This will also be italic_
+
 
 **Sample:**  
-__Url -http://localhost:8080/api/certificate/2__
+__Url - http://localhost:8080/api/certificate/2__
 
 __Params - none__  
 
@@ -891,15 +888,14 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-4. #### Url - 
-* #### Method -
+4. #### Url - http://localhost:8080/api/certificate
+* #### Method - GET
 * #### protected - 
 
-*Description -  F disability of particular person using patch*  
-_This will also be italic_
+*Description -  Fetch disability of particular person*  
 
 **Sample:**  
-__Url -http://localhost:8080/api/certificate__
+__Url - http://localhost:8080/api/certificate__
 
 __Params - none__  
 
@@ -1134,15 +1130,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-5. #### Url - 
-* #### Method -
+5. #### Url - http://localhost:8080/api/certificate/{id}
+* #### Method - DELETE
 * #### protected - 
 
 *Description - Deleting record of User("can only be done by Admin")*  
-_This will also be italic_
+
 
 **Sample:**  
-__Url -http://localhost:8080/api/certificate/2__
+__Url - http://localhost:8080/api/certificate/2__
 
 __Params - none__  
 
@@ -1161,15 +1157,15 @@ __Response:__
 
 ## Disability-Type Service
 
-1. #### Url - 
-* #### Method -
+1. #### Url - http://localhost:8080/api/disabilitytype/
+* #### Method - POST
 * #### protected - 
 
 *Description -Inserting a disability type*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/disabilitytype/__
+__Url - http://localhost:8080/api/disabilitytype/__
 
 __Params - none__  
 
@@ -1186,15 +1182,15 @@ __Response:__
  Record Inserted Successfully.
 ```
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-2. #### Url - 
-* #### Method -
+2. #### Url - http://localhost:8080/api/disabilitytype/{id}
+* #### Method - DELETE
 * #### protected - 
 
 *Description - Deleting a disability type*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/disabilitytype/3__
+__Url - http://localhost:8080/api/disabilitytype/3__
 
 __Params - none__  
 
@@ -1212,15 +1208,14 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-3. #### Url - 
-* #### Method -
+3. #### Url - http://localhost:8080/api/disabilitytype/{id}
+* #### Method - PUT
 * #### protected - 
 
 *Description - Updating Inserting a disability type*  
-_This will also be italic_
 
 **Sample:**  
-__Url -http://localhost:8080/api/disabilitytype/3__
+__Url - http://localhost:8080/api/disabilitytype/3__
 
 __Params - none__  
 
@@ -1241,8 +1236,8 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-4. #### Url - 
-* #### Method -
+4. #### Url - http://localhost:8080/api/disabilitytype/
+* #### Method - GET
 * #### protected - 
 
 *Description -Fetching all disability type*  
@@ -1276,15 +1271,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-5. #### Url - 
-* #### Method -
+5. #### Url - http://localhost:8080/api/disabilitytype/{id}
+* #### Method - GET
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Fetching One DisabilityType*  
+
 
 **Sample:**  
-__Url -http://localhost:8080/api/disabilitytype/1__
+__Url - http://localhost:8080/api/disabilitytype/1__
 
 __Params - none__  
 
@@ -1306,15 +1301,15 @@ __Response:__
 
 ## Doctor's Job Service
 
-1. #### Url - 
-* #### Method -
+1. #### Url - http://localhost:8080/api/job/doc/
+* #### Method - POST
 * #### protected - 
 
 *Description - Inserting new Job for a particular doctor*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/job/doc/__
+__Url - http://localhost:8080/api/job/doc/__
 
 __Params - none__  
 
@@ -1339,15 +1334,15 @@ __Response:__
  Record Inserted Successfully.
 ```
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-2. #### Url - 
-* #### Method -
+2. #### Url - http://localhost:8080/api/job/doc/{id}
+* #### Method - PUT
 * #### protected - 
 
 *Description - Updating a Job for a particular doctor*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/job/doc/2__
+__Url - http://localhost:8080/api/job/doc/2__
 
 __Params - none__  
 
@@ -1442,15 +1437,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-3. #### Url - 
-* #### Method -
+3. #### Url - http://localhost:8080/api/job/doc/{id}
+* #### Method - GET
 * #### protected - 
 
-*Description - Updating using patch Job for a particular doctor*  
+*Description - Fetch Job for a particular doctor*  
 _This will also be italic_
 
 **Sample:**  
-__Url -http://localhost:8080/api/job/doc/2__
+__Url - http://localhost:8080/api/job/doc/2__
 
 __Params - none__  
 
@@ -1468,15 +1463,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-4. #### Url - 
-* #### Method -
+4. #### Url - http://localhost:8080/api/job/doc/{id}
+* #### Method - GET
 * #### protected - 
 
 *Description - Fetch new Job for a particular doctor*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/job/doc/1__
+__Url - http://localhost:8080/api/job/doc/1__
 
 __Params - none__  
 
@@ -1563,15 +1558,14 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-5. #### Url - 
-* #### Method -
+5. #### Url - http://localhost:8080/api/job/doc
+* #### Method - GET
 * #### protected - 
 
-*Description -*  
-_This will also be italic_
+*Description - Fetch all Jobs*  
 
 **Sample:**  
-__Url -http://localhost:8080/api/job/doc__
+__Url - http://localhost:8080/api/job/doc__
 
 __Params - none__  
 
@@ -1662,15 +1656,15 @@ __Response:__
 
 ## Police's Job Service
 
-1. #### Url - 
-* #### Method -
+1. #### Url - http://localhost:8080/api/job/police
+* #### Method - POST
 * #### protected - 
 
 *Description - Inserting new Job for a particular police*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/job/police__
+__Url - http://localhost:8080/api/job/police__
 
 __Params - none__  
 
@@ -1695,15 +1689,15 @@ __Response:__
  Record Inserted Successfully.
 ```
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-2. #### Url - 
-* #### Method -
+2. #### Url - http://localhost:8080/api/job/police/{id}
+* #### Method - PUT
 * #### protected - 
 
 *Description - Updating new Job for a particular Police*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/job/police/2__
+__Url -  http://localhost:8080/api/job/police/2__
 
 __Params - none__  
 
@@ -1798,15 +1792,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-3. #### Url - 
-* #### Method -
+3. #### Url - http://localhost:8080/api/job/police/{id}
+* #### Method - GET
 * #### protected - 
 
 *Description - Fetching one Job for a particular Police*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/job/police/1__
+__Url - http://localhost:8080/api/job/police/1__
 
 __Params - none__  
 
@@ -1893,15 +1887,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-4. #### Url - 
-* #### Method -
+4. #### Url - http://localhost:8080/api/job/police
+* #### Method - GET
 * #### protected - 
 
 *Description - Fetching Job for a particular Police*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/job/police__
+__Url - http://localhost:8080/api/job/police__
 
 __Params - none__  
 
@@ -1990,15 +1984,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-5. #### Url - 
-* #### Method -
+5. #### Url - http://localhost:8080/api/job/police/{id}
+* #### Method - DELETE
 * #### protected - 
 
 *Description - Deleting Job for a particular Police*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/job/police/2__
+__Url - http://localhost:8080/api/job/police/2__
 
 __Params - none__  
 
@@ -2017,15 +2011,15 @@ __Response:__
 
 ## Railway-Officer's Job Service
 
-1. #### Url - 
-* #### Method -
+1. #### Url - http://localhost:8080/api/job/rail/
+* #### Method - POST
 * #### protected - 
 
 *Description - Inserting new Job for a particular Rail-Officer*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/job/rail/__
+__Url - http://localhost:8080/api/job/rail/__
 
 __Params - none__  
 
@@ -2050,15 +2044,15 @@ __Response:__
 Record Inserted Successfully.
 ```
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-2. #### Url - 
-* #### Method -
+2. #### Url - http://localhost:8080/api/job/rail/{id}
+* #### Method - PUT
 * #### protected - 
 
 *Description - Updating Job for a particular Rail-Officer*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/job/rail/2__
+__Url - http://localhost:8080/api/job/rail/2__
 
 __Params - none__  
 
@@ -2153,15 +2147,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-3. #### Url - 
-* #### Method -
+3. #### Url - http://localhost:8080/api/job/rail/{id}
+* #### Method - DELETE
 * #### protected - 
 
 *Description - Deleting Job for a particular Rail-Officer*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/job/rail/2__
+__Url - http://localhost:8080/api/job/rail/2__
 
 __Params - none__  
 
@@ -2179,15 +2173,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-4. #### Url - 
-* #### Method -
+4. #### Url - http://localhost:8080/api/job/rail
+* #### Method - GET
 * #### protected - 
 
 *Description - Fetching all Job for a particular Rail-Officer*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/job/rail__
+__Url - http://localhost:8080/api/job/rail__
 
 __Params - none__  
 
@@ -2276,15 +2270,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-5. #### Url - 
-* #### Method -
+5. #### Url - http://localhost:8080/api/job/rail/{id}
+* #### Method - GET
 * #### protected - 
 
 *Description - Fetch Job for a particular Rail-Officer*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/job/rail/1__
+__Url - http://localhost:8080/api/job/rail/1__
 
 __Params - none__  
 
@@ -2372,15 +2366,15 @@ __Response:__
 
 ## RailwayZone Service
 
-1. #### Url - 
-* #### Method -
+1. #### Url - http://localhost:8080/api/zone/
+* #### Method - POST
 * #### protected - 
 
 *Description - Inserting new RailwayZone*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/zone/__
+__Url - http://localhost:8080/api/zone/__
 
 __Params - none__  
 
@@ -2407,15 +2401,15 @@ __Response:__
 Record Inserted Successfully.
 ```
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-2. #### Url - 
-* #### Method -
+2. #### Url - http://localhost:8080/api/zone/{id}
+* #### Method - PUT
 * #### protected - 
 
 *Description - Updating RailwayZone*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/zone/2__
+__Url - http://localhost:8080/api/zone/2__
 
 __Params - none__  
 
@@ -2449,15 +2443,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-3. #### Url - 
-* #### Method -
+3. #### Url - http://localhost:8080/api/zone/{id}
+* #### Method - DELETE
 * #### protected - 
 
 *Description - Deleting a RailwayZone*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/zone/2__
+__Url - http://localhost:8080/api/zone/2__
 
 __Params - none__  
 
@@ -2475,15 +2469,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-4. #### Url - 
-* #### Method -
+4. #### Url - http://localhost:8080/api/zone
+* #### Method - GET
 * #### protected - 
 
 *Description - Fetch all RailwayZone*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/zone__
+__Url - http://localhost:8080/api/zone__
 
 __Params - none__  
 
@@ -2514,15 +2508,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-5. #### Url - 
-* #### Method -
+5. #### Url - http://localhost:8080/api/zone/{id}
+* #### Method - GET
 * #### protected - 
 
 *Description - Fetching one RailwayZone*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/zone/1__
+__Url - http://localhost:8080/api/zone/1__
 
 __Params - none__  
 
@@ -2552,15 +2546,15 @@ __Response:__
 
 ## Request Service
 
-1. #### Url - 
-* #### Method -
+1. #### Url - http://localhost:8080/api/request/
+* #### Method - POST
 * #### protected - 
 
 *Description - Inserting a new Request*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/request/__
+__Url - http://localhost:8080/api/request/__
 
 __Params - none__  
 
@@ -2588,15 +2582,15 @@ __Response:__
  Record Inserted Successfully.
 ```
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-2. #### Url - 
-* #### Method -
+2. #### Url - http://localhost:8080/api/request/{id}
+* #### Method - DELETE
 * #### protected - 
 
 *Description - Deleting a Request*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/request/2__
+__Url - http://localhost:8080/api/request/2__
 
 __Params - none__  
 
@@ -2614,14 +2608,14 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-3. #### Url - 
-* #### Method -
+3. #### Url - http://localhost:8080/api/request/{id}
+* #### Method - PUT
 * #### protected - 
 
 *Description - Updating a Request*  
 
 **Sample:**  
-__Url -http://localhost:8080/api/request/2__
+__Url - http://localhost:8080/api/request/2__
 
 __Params - none__  
 
@@ -2688,15 +2682,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-4. #### Url - 
-* #### Method -
+4. #### Url - http://localhost:8080/api/request/{id}
+* #### Method - GET
 * #### protected - 
 
 *Description - Fetching a Request*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/request/1__
+__Url - http://localhost:8080/api/request/1__
 
 __Params - none__  
 
@@ -2752,15 +2746,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-5. #### Url - 
-* #### Method -
+5. #### Url - http://localhost:8080/api/request
+* #### Method - GET
 * #### protected - 
 
 *Description - Fetch all Request*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/request__
+__Url - http://localhost:8080/api/request__
 
 __Params - none__  
 
@@ -2819,15 +2813,15 @@ __Response:__
 
 ## State Service
 
-1. #### Url - 
-* #### Method -
+1. #### Url - http://localhost:8080/api/state/
+* #### Method - POST
 * #### protected - 
 
 *Description - Insert a new State*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/state/__
+__Url - http://localhost:8080/api/state/__
 
 __Params - none__  
 
@@ -2845,15 +2839,15 @@ __Response:__
  Record Inserted Successfully.
 ```
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-2. #### Url - 
-* #### Method -
+2. #### Url - http://localhost:8080/api/state/{id}
+* #### Method - PUT
 * #### protected - 
 
 *Description - Update current State*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/state/3__
+__Url - http://localhost:8080/api/state/3__
 
 __Params - none__  
 
@@ -2874,15 +2868,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-3. #### Url - 
-* #### Method -
+3. #### Url - http://localhost:8080/api/state/{id}
+* #### Method - GET
 * #### protected - 
 
 *Description - Fetch a State*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/state/2__
+__Url - http://localhost:8080/api/state/2__
 
 __Params - none__  
 
@@ -2903,15 +2897,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-4. #### Url - 
-* #### Method -
+4. #### Url - http://localhost:8080/api/state/{id}
+* #### Method - DELETE
 * #### protected - 
 
 *Description - Deleting a State*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/state/3__
+__Url - http://localhost:8080/api/state/3__
 
 __Params - none__  
 
@@ -2929,15 +2923,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-5. #### Url - 
-* #### Method -
+5. #### Url - http://localhost:8080/api/state
+* #### Method - GET
 * #### protected - 
 
 *Description - Fetch all State*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/state__
+__Url - http://localhost:8080/api/state__
 
 __Params - none__  
 
@@ -2971,15 +2965,15 @@ __Response:__
 
 ## Status Service
 
-1. #### Url - 
-* #### Method -
+1. #### Url - http://localhost:8080/api/status
+* #### Method - POST
 * #### protected - 
 
 *Description - Insert new Status*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/status__
+__Url - http://localhost:8080/api/status__
 
 __Params - none__  
 
@@ -2996,8 +2990,8 @@ __Response:__
 Record Inserted Successfully.
 ```
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-2. #### Url - 
-* #### Method -
+2. #### Url - http://localhost:8080/api/status/{id}
+* #### Method - PUT
 * #### protected - 
 
 *Description - Update a Status*  
@@ -3025,8 +3019,8 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-3. #### Url - 
-* #### Method -
+3. #### Url - http://localhost:8080/api/status/{id}
+* #### Method - GET
 * #### protected - 
 
 *Description - Fetch one Status*  
@@ -3054,8 +3048,8 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-4. #### Url - 
-* #### Method -
+4. #### Url - http://localhost:8080/api/status/{id}
+* #### Method - DELETE
 * #### protected - 
 
 *Description - Delete a Status*  
@@ -3080,15 +3074,15 @@ __Response:__
 ```
 
 ##### -----------------------------------------------------------------------------------------------------------------------------------
-5. #### Url - 
-* #### Method -
+5. #### Url - http://localhost:8080/api/status
+* #### Method - GET
 * #### protected - 
 
 *Description - Fetch all Status*  
 
 
 **Sample:**  
-__Url -http://localhost:8080/api/status__
+__Url - http://localhost:8080/api/status__
 
 __Params - none__  
 
