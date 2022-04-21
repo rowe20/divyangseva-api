@@ -207,7 +207,6 @@ __Response:__
 * #### protected - 
 
 *Description - Inserting a new User*  
-_This will also be italic_
 
 **Sample:**  
 __Url - http://localhost:8080/api/user/__
@@ -404,6 +403,57 @@ __Response:__
  {
     "name": "SUDHEESHKUMAR",
     "user_type": "Police"
+}
+```
+##### -----------------------------------------------------------------------------------------------------------------------------------
+7. #### Url - http://localhost:8080/api/user/{id}
+* #### Method - PATCH
+* #### protected - 
+
+*Description - Updating a User using Patch*  
+
+
+**Sample:**  
+__Url - http://localhost:8080/api/user/8__
+
+__Params - none__  
+
+__Body:__
+
+```
+ {
+    "image": "user.jpeg",
+    "signature": "usersignature.jpeg",
+    "aadhar": "aadhar.jpeg",
+}
+```
+__Response:__
+
+```
+ {
+
+    "id": 8,
+    "uname": "SUDHEESHKUMAR",
+    "email": "sk@gmail.com",
+    "password": "c2s=",
+    "phone_no": "987654321",
+    "organization_name": "Ankleshwar Police Station.",
+    "image": "user.jpeg",
+    "signature": "usersignature.jpeg",
+    "aadhar": "aadhar.jpeg",
+    "dob": "1995-06-17",
+    "city": {
+        "id": 1,
+        "city_name": "Ankleshwar",
+        "state": {
+            "id": 2,
+            "state_name": "Gujarat"
+        }
+    },
+    "usertype": {
+        "id": 2,
+        "user_type": "Police"
+    }
 }
 ```
 
@@ -2961,6 +3011,216 @@ __Response:__
         "state_name": "Delhi"
     }
 ]
+```
+
+## City Service
+
+1. #### Url - http://localhost:8080/api/city/
+* #### Method - POST
+* #### protected - 
+
+*Description - Insert a new City*  
+
+
+**Sample:**  
+__Url - http://localhost:8080/api/city/__
+
+__Params - none__  
+
+__Body:__
+
+```
+ {
+    "city_name" : "Surat",
+    "state":{
+        "id":2
+    }
+}
+```
+__Response:__
+
+```
+ Record Inserted Successfully.
+```
+##### -----------------------------------------------------------------------------------------------------------------------------------
+2. #### Url - http://localhost:8080/api/city/{id}
+* #### Method - PUT
+* #### protected - 
+
+*Description - Update current City*  
+
+
+**Sample:**  
+__Url - http://localhost:8080/api/city/3__
+
+__Params - none__  
+
+__Body:__
+
+```
+ {
+    "city_name" : "Surat",
+    "state":{
+        "id":2
+    }
+}
+```
+__Response:__
+
+```
+ {
+    "city_name" : "Surat",
+    "state":{
+        "id":2
+    }
+}
+```
+
+##### -----------------------------------------------------------------------------------------------------------------------------------
+3. #### Url - http://localhost:8080/api/city/{id}
+* #### Method - GET
+* #### protected - 
+
+*Description - Fetch a City*  
+
+
+**Sample:**  
+__Url - http://localhost:8080/api/city/1__
+
+__Params - none__  
+
+__Body:__
+
+```
+ {
+ "example":"example"
+ }
+```
+__Response:__
+
+```
+[
+    {
+        "id": 1,
+        "city_name": "Ankleshwar",
+        "state": {
+            "id": 2,
+            "state_name": "Gujarat"
+        }
+    }
+ ]
+```
+
+##### -----------------------------------------------------------------------------------------------------------------------------------
+4. #### Url - http://localhost:8080/api/city/{id}
+* #### Method - DELETE
+* #### protected - 
+
+*Description - Deleting a City*  
+
+
+**Sample:**  
+__Url - http://localhost:8080/api/city/3__
+
+__Params - none__  
+
+__Body:__
+
+```
+ {
+ "example":"example"
+ }
+```
+__Response:__
+
+```
+ Record Deleted Successfully.
+```
+
+##### -----------------------------------------------------------------------------------------------------------------------------------
+5. #### Url - http://localhost:8080/api/city
+* #### Method - GET
+* #### protected - 
+
+*Description - Fetch all Cities*  
+
+
+**Sample:**  
+__Url - http://localhost:8080/api/city__
+
+__Params - none__  
+
+__Body:__
+
+```
+ 
+```
+__Response:__
+
+```
+[
+    {
+        "id": 1,
+        "city_name": "Ankleshwar",
+        "state": {
+            "id": 2,
+            "state_name": "Gujarat"
+        }
+    },
+    {
+        "id": 2,
+        "city_name": "Ahmedabad",
+        "state": {
+            "id": 2,
+            "state_name": "Gujarat"
+        }
+    },
+    {
+        "id": 3,
+        "city_name": "Panvel",
+        "state": {
+            "id": 4,
+            "state_name": "Maharashtra"
+        }
+    },
+    {
+        "id": 4,
+        "city_name": "Vadodara",
+        "state": {
+            "id": 2,
+            "state_name": "Gujarat"
+        }
+    }
+]
+```
+6. #### Url - http://localhost:8080/api/city/{id}
+* #### Method - PATCH
+* #### protected - 
+
+*Description - Update current City *  
+
+
+**Sample:**  
+__Url - http://localhost:8080/api/city/3__
+
+__Params - none__  
+
+__Body:__
+
+```
+ {
+    "city_name" : "Surat"
+}
+```
+__Response:__
+
+```
+ {
+    "city_name" : "Surat",
+    "state":{
+        "id":2
+    }
+}
 ```
 
 ## Status Service
